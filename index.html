@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escort Directory</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+    <!-- Navbar -->
+    <header class="bg-pink-600 text-white">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="flex items-center space-x-4">
+                <img src="logo.png" alt="Logo" class="w-12 h-12">
+                <h1 class="text-3xl font-bold">Escort Directory</h1>
+            </div>
+            <nav class="space-x-4">
+                <a href="#" class="hover:underline">Home</a>
+                <a href="#" class="hover:underline">Escorts</a>
+                <a href="#" class="hover:underline">Agencies</a>
+                <a href="#" class="hover:underline">Contact Us</a>
+                <a href="#" class="bg-yellow-500 px-3 py-2 rounded text-black font-semibold">Register</a>
+                <a href="#" class="px-3 py-2 rounded bg-gray-700">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <section class="bg-gray-200 py-8">
+        <div class="container mx-auto">
+            <div class="flex space-x-4 overflow-x-auto">
+                <!-- Carousel Cards -->
+                <div class="min-w-max">
+                    <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://example.com/image1.jpg" alt="Ross" class="w-48 h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-bold">Ross</h3>
+                            <p class="text-gray-600">Osaka, Japan</p>
+                            <span
+                                class="absolute top-2 left-2 bg-green-500 text-white px-2 py-1 text-xs rounded">VERIFIED</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="min-w-max">
+                    <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://example.com/image2.jpg" alt="Rowan and Johnathon"
+                            class="w-48 h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-bold">Rowan and Johnathon</h3>
+                            <p class="text-gray-600">Las Palmas, Spain</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="min-w-max">
+                    <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://example.com/image3.jpg" alt="Abigail" class="w-48 h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-bold">Abigail</h3>
+                            <p class="text-gray-600">Berlin, Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="min-w-max">
+                    <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://example.com/image3.jpg" alt="Abigail" class="w-48 h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-bold">Abigail</h3>
+                            <p class="text-gray-600">Berlin, Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="min-w-max">
+                    <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://example.com/image3.jpg" alt="Abigail" class="w-48 h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-bold">Abigail</h3>
+                            <p class="text-gray-600">Berlin, Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="min-w-max">
+                    <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://example.com/image3.jpg" alt="Abigail" class="w-48 h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-bold">Abigail</h3>
+                            <p class="text-gray-600">Berlin, Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="min-w-max">
+                    <div class="relative bg-white shadow-lg rounded-lg overflow-hidden">
+                        <img src="https://example.com/image3.jpg" alt="Abigail" class="w-48 h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-xl font-bold">Abigail</h3>
+                            <p class="text-gray-600">Berlin, Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional Carousel Items Here -->
+            </div>
+        </div>
+    </section>
+
+    <div class="container mx-auto flex">
+        <!-- Sidebar Filters -->
+        <aside class="w-1/4 p-4">
+            <h2 class="text-xl font-semibold mb-4">Quick Search</h2>
+            <form class="space-y-2">
+                <label class="block">
+                    <span>Gender:</span>
+                    <select class="w-full p-2 border rounded">
+                        <option>Female</option>
+                        <option>Male</option>
+                    </select>
+                </label>
+                <label class="block">
+                    <span>Type:</span>
+                    <select class="w-full p-2 border rounded">
+                        <option>Only Premium</option>
+                        <option>Only Independent</option>
+                    </select>
+                </label>
+                <button class="w-full bg-pink-600 text-white py-2 rounded">Search</button>
+            </form>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="w-3/4 p-4">
+            <!-- Featured Escorts -->
+            <h2 class="text-2xl font-bold mb-4">Premium Escorts</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Escort Cards -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/image4.jpg" alt="Larissa and Jude" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Larissa and Jude</h3>
+                        <p class="text-gray-600">The Hague, Netherlands</p>
+                        <span class="bg-green-500 text-white px-2 py-1 text-xs rounded">VERIFIED</span>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/image5.jpg" alt="Cameron and Donovan"
+                        class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Cameron and Donovan</h3>
+                        <p class="text-gray-600">Almere, Netherlands</p>
+                        <span class="bg-orange-500 text-white px-2 py-1 text-xs rounded">PREMIUM</span>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/image6.jpg" alt="Mira and Daniel" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Mira and Daniel</h3>
+                        <p class="text-gray-600">The Hague, Netherlands</p>
+                    </div>
+                </div>
+                <!-- Additional Premium Escort Cards Here -->
+            </div>
+
+            <!-- Newly Added Escorts -->
+            <h2 class="text-2xl font-bold mt-8 mb-4">Newly Added Escorts</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <!-- New Escort Cards -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/image7.jpg" alt="Amiya" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Amiya</h3>
+                        <p class="text-gray-600">Dortmund, Germany</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/image8.jpg" alt="Camilla" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Camilla</h3>
+                        <p class="text-gray-600">Lyon, France</p>
+                        <span class="bg-green-500 text-white px-2 py-1 text-xs rounded">VERIFIED</span>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://example.com/image9.jpg" alt="Alijia" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Alijia</h3>
+                        <p class="text-gray-600">Lyon, France</p>
+                    </div>
+                </div>
+                <!-- Additional Newly Added Escort Cards Here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Reviews Section -->
+<section class="bg-gray-100 py-8">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-4">Latest Escort Reviews</h2>
+
+        <!-- Review Carousel Container -->
+        <div id="review-carousel" class="relative">
+            <div class="review-slide flex space-x-4 overflow-x-hidden transition-transform duration-300 ease-out">
+
+                <!-- Review Card 1 -->
+                <div class="bg-white shadow-md rounded-lg p-4 w-72">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at est nisi. <span
+                            class="more-text hidden">Orci varius natoque penatibus et magnis dis parturient
+                            montes...</span></p>
+                    <button class="text-blue-500 mt-2 read-more-btn">Read More</button>
+                    <div class="flex items-center mt-2 star-rating">
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-gray-300 text-lg">&#9733;</span>
+                    </div>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="bg-white shadow-md rounded-lg p-4 w-72">
+                    <p>Nunc maximus lorem vitae posuere tincidunt. <span class="more-text hidden">Ultricies sodales
+                            ipsum, sit amet convallis est accumsan et arcu felis porta libero...</span></p>
+                    <button class="text-blue-500 mt-2 read-more-btn">Read More</button>
+                    <div class="flex items-center mt-2 star-rating">
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-yellow-400 text-lg">&#9733;</span>
+                        <span class="star text-gray-300 text-lg">&#9733;</span>
+                    </div>
+                </div>
+
+                <!-- Additional Review Cards Here -->
+            </div>
+
+            <!-- Carousel Controls -->
+            <div class="flex justify-between items-center mt-4">
+                <button id="prev-btn" class="bg-pink-600 text-white px-4 py-2 rounded">Previous</button>
+                <button id="next-btn" class="bg-pink-600 text-white px-4 py-2 rounded">Next</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2024 Escort Directory. All rights reserved. | <a href="#" class="underline">Terms of use</a> | <a href="#"
+            class="underline">Privacy Policy</a></p>
+</footer>
+
+<!-- JavaScript for interactivity -->
+<script>
+    // Carousel functionality
+    const carousel = document.querySelector('.review-slide');
+    const nextBtn = document.getElementById('next-btn');
+    const prevBtn = document.getElementById('prev-btn');
+    let currentSlide = 0;
+
+    nextBtn.addEventListener('click', () => {
+        currentSlide += 1;
+        carousel.style.transform = `translateX(-${currentSlide * 300}px)`;
+        checkButtons();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        currentSlide -= 1;
+        carousel.style.transform = `translateX(-${currentSlide * 300}px)`;
+        checkButtons();
+    });
+
+    function checkButtons() {
+        prevBtn.disabled = currentSlide === 0;
+        nextBtn.disabled = currentSlide === carousel.childElementCount - 1;
+    }
+
+    // 'Read More' functionality
+    const readMoreButtons = document.querySelectorAll('.read-more-btn');
+    readMoreButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            const moreText = e.target.previousElementSibling.querySelector('.more-text');
+            moreText.classList.toggle('hidden');
+            e.target.textContent = moreText.classList.contains('hidden') ? 'Read More' : 'Read Less';
+        });
+    });
+
+    // Star rating hover effect
+    const starRatings = document.querySelectorAll('.star-rating .star');
+    starRatings.forEach((star, index) => {
+        star.addEventListener('mouseover', () => {
+            starRatings.forEach((s, i) => {
+                s.style.color = i <= index ? '#ffcc00' : '#ddd';
+            });
+        });
+        star.addEventListener('mouseleave', () => {
+            starRatings.forEach(s => s.style.color = s.classList.contains('text-yellow-400') ? '#ffcc00' : '#ddd');
+        });
+    });
+</script>
+
+</body>
+
+</html>
